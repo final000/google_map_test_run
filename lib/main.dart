@@ -27,14 +27,14 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Maps Sample Application by TYU'),
+          title: const Text('Maps Sample Application by Thanit'),
           backgroundColor: Colors.green[700],
         ),
         body: GoogleMap(
           onMapCreated: _onMapCreate,
           initialCameraPosition: CameraPosition(
             target: _center,
-            zoom: 12.0,
+            zoom: 8.0,
           ),
         )
       )
