@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Maps Sample Application by Thanit'),
+          title: const Text('Maps Sample Application by Thanit Dec 2021'),
           backgroundColor: Colors.green[700],
         ),
         body: GoogleMap(
